@@ -1,7 +1,7 @@
 # Dolgozat Feladat
 
-Java GUI program legördölő menüvel 
+Java GUI program legördülő menüvel 
 
-Sangare Fantha Felisha, 2022-05-31, SZOFT I N 
+Sangare Fantha Felisha, SZOFT I N, 2022-05-31
 
 
