@@ -6,6 +6,7 @@ import javax.swing.DefaultComboBoxModel;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+import javax.swing.SwingConstants;
 import javax.swing.JLabel;
 
 public class MainFrame extends JFrame {
@@ -35,9 +36,8 @@ public class MainFrame extends JFrame {
         this.setVisible(true);
     }
     private void Fejlec() {
-		this.fejlec = new JLabel("Sangare Fantha Felisha");
+		this.fejlec = new JLabel("<html>Sangare Fantha Felisha,SZOFT I N,<br>2022-05-31</html>",  SwingConstants.CENTER);
 		this.add(this.fejlec);
-		this.setSize(400, 300);
 		this.setVisible(true);
 	}	
 
