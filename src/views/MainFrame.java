@@ -6,12 +6,15 @@ import javax.swing.DefaultComboBoxModel;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+import javax.swing.JLabel;
 
 public class MainFrame extends JFrame {
     JPanel mainPanel;
+    JLabel fejlec;
     public DefaultComboBoxModel<String> groupModel;
     public JComboBox<String> groupCombo;
     public MainFrame() {
+        this.Fejlec();
         this.setMainComponent();
         this.setMainPanel();
         this.setMainFrame();
@@ -31,4 +34,11 @@ public class MainFrame extends JFrame {
         this.setSize(400, 300);
         this.setVisible(true);
     }
+    private void Fejlec() {
+		this.fejlec = new JLabel("Sangare Fantha Felisha");
+		this.add(this.fejlec);
+		this.setSize(400, 300);
+		this.setVisible(true);
+	}	
+
 }

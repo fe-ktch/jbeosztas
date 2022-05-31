@@ -18,8 +18,8 @@ public class MainController {
     public MainController() {
         this.mainFrame = new MainFrame();
         this.mainModel = new MainModel();
-        this.mainModel.beosztasList.forEach(group ->{
-            this.mainFrame.groupModel.addElement(group.name);            
+        this.mainModel.beosztasList.forEach(beosztas ->{
+            this.mainFrame.groupModel.addElement(beosztas.name);            
         });
     }
 }
